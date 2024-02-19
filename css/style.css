@@ -135,25 +135,34 @@
         margin-top: -10px;
     }
 
+    .header--child{
+        width: 370px;
+    }
+    
     .header--child h2 {
         margin-left: 16px;
         margin-top: 10px;
         font-size: 18px;
     }
 
+
     .header--child--dark {
-        margin-right: 10px;
+        margin-right: 20px;
         margin-top: 5px;
     }
 
     .nav--search {
         display: block;
     }
-    
+
     .nav--search--input--name {
         margin-top: -50px;
-        margin-left: 16px;
-        width: 325px;
+        margin-left: 0px;
+        width: 335px;
+    }
+
+    .search-icon {
+        left: 50px;
     }
 
     .nav--region {
