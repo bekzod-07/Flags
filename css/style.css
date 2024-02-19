@@ -1,0 +1,172 @@
+:root {
+    --bg-color: #fafafa;
+    --tx-color:#848484;
+    --box-shad:rgba(0, 0, 0, 0.06);
+}
+
+.dark--mode {
+    color: white;
+    background: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header {
+    box-shadow: 0px 2px 9px var(--box-shad);
+    height: 50px;
+    padding-bottom: 70px;
+}
+
+.header--child {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--child--dark {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header--child--dark p {
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.nav {
+    background-color: root(--bg-color);
+    width: 100%;
+    height: 940px
+}
+
+.fa-search {
+    position: relative;
+    left: 40px;
+    opacity: 0.5;
+}
+
+.nav--search {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav--search--input--name {
+    margin-left: -20px;
+    color: var(--tx-color);
+    padding-left: 70px;
+    width: 400px;
+    height: 50px;
+    box-shadow: 0px 2px 9px var(--box-shad);
+}
+
+.nav--region--select {
+    min-width: 220px;
+    padding: 18px 24px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px var(--box-shad);
+}
+
+.nav--flags {
+    margin-top: 48px;
+}
+
+.nav--flags--child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--flags--child--one {
+    box-shadow: 0px 2px 9px var(--box-shad);
+    width: 264px;
+    height: 336px;
+}
+
+.nav--flags--child--one h3 {
+    margin-top: 20px;
+}
+
+.nav--flags--child--one h3, p {
+    margin-left: 30px;
+}
+
+.nav--flags--child--one p:nth-child(3) {
+    margin-top: 20px;
+}
+
+.nav--flags--child--one p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.nav--flags--child--one span {
+    font-weight: 600;
+}
+
+.nav--flags--child--two {
+    margin-top: 75px;
+}
+
+@media only screen and (max-width: 375px){
+
+    .container {
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header {
+        width: 375px;
+        margin-top: -10px;
+    }
+
+    .header--child h2 {
+        margin-left: 16px;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .header--child--dark {
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .nav--search {
+        display: block;
+    }
+    
+    .nav--search--input--name {
+        margin-top: -50px;
+        margin-left: 16px;
+        width: 325px;
+    }
+
+    .nav--region {
+        margin-left: 16px;
+        margin-top: 40px;
+    }
+
+    .nav--flags--child {
+        margin-left: 45px;
+        display: block;
+    }
+
+    .nav--flags--child--one {
+        margin-top: 40px;
+    }
+}
