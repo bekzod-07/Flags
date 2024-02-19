@@ -136,9 +136,9 @@
     }
 
     .header--child{
-        width: 370px;
+        width: 360px;
     }
-    
+
     .header--child h2 {
         margin-left: 16px;
         margin-top: 10px;
@@ -147,7 +147,7 @@
 
 
     .header--child--dark {
-        margin-right: 20px;
+        margin-right: 30px;
         margin-top: 5px;
     }
 
@@ -158,7 +158,7 @@
     .nav--search--input--name {
         margin-top: -50px;
         margin-left: 0px;
-        width: 335px;
+        width: 310px;
     }
 
     .search-icon {
